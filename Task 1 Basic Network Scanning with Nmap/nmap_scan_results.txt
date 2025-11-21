@@ -1,0 +1,29 @@
+1)
+
+sudo apt install nmap                     
+[sudo] password for kali: 
+nmap is already the newest version (7.95+dfsg-3kali1).
+nmap set to manually installed.
+The following packages were automatically installed and are no longer required:
+  libbluray2       libgeos3.13.1     libplacebo349       libsigsegv2        libtheoradec1  linux-image-6.12.25-amd64
+  libgdal36        libhdf4-0-alt     libportmidi0        libsoup-2.4-1      libtheoraenc1  python3-packaging-whl
+  libgdata-common  libjs-underscore  libqt5ct-common1.8  libsoup2.4-common  libudfread0    python3-pyinstaller-hooks-contrib
+  libgdata22       libogdi4.1        libsframe1          libtheora0         libvpx9        python3-wheel-whl
+Use 'sudo apt autoremove' to remove them.
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 1053
+
+2)
+
+nmap 192.168.0.103
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-15 11:25 IST
+Nmap scan report for 192.168.0.103
+Host is up (0.000014s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.18 seconds
+                                                                       
